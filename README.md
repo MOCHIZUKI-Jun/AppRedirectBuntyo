@@ -1,4 +1,6 @@
 # 文鳥パフェ育成 ストアリダイレクト
+- githubのwebページ作成機能を利用して、アプリのiOS/Androidのストアページを1つのリンクで用意する。
+
 ## AppStore
 - https://apps.apple.com/app/id1461042810
 
@@ -31,8 +33,7 @@ git checkout --orphan master
 git add index.html
 git commit -a -m "First pages commit"
 git push origin master
-
 ```
-- リポジトリの `Settings `から `GitHub Pages` でProject Pageを有効化
+- リポジトリの `Settings` から `GitHub Pages` でProject Pageを有効化
 - ここにアクセスするとOS別にリダイレクトして他のURLに移動できる
   - http://yourself-account.github.io/yourRepository
